@@ -1,0 +1,34 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/M(s+F-_x9(oEe3[VftR">mySprite</variable><variable type="KIND_SpriteKind" id="/KdbI6!eTn^pZ2BJ|9(Y">Player</variable><variable type="KIND_SpriteKind" id="(X]lH%i^y962hA0Hp)R#">Projectile</variable><variable type="KIND_SpriteKind" id="jPdP+GxtrJ98NNEu%psI">Food</variable><variable type="KIND_SpriteKind" id=";3v3WcMI#BoaGU,ik1uD">Enemy</variable></variables><block type="pxt-on-start" id="KcjZJ1{Fusb[g4/v]I5$" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="ZZ2Z1|`d{)6x+)8wSKYj"><field name="VAR" id="/M(s+F-_x9(oEe3[VftR">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="l`^%j}pYu%ag/]a@za8p"><value name="img"><shadow type="screen_image_picker" id="%(%*m*J{Bu,pN;qchj1O"><field name="img">img`
+.......ffffffffffffffffff.......
+......ffeeeeeeeeeeeeeeeeff......
+.....ffeeeeeeeeeeeeeeeeeeff.....
+....ffeeeeeeeeeeeeeeeeeeeeff....
+...ffeeeeeeeeeeeeeeeeeeeeeeff...
+..ffeeeeeeeeeeeeeeeeeeeeeeeeff..
+.ffeeeeeeeeeeeeeeeeeeeeeeeeeeff.
+.feeeeeeeeeeeeeeeeeeeeeeeeeeeef.
+.f2e2eee2e22e2eeee2e22e2eee2e2f.
+.f2ee222ef22ee2222ee22fe222ee2f.
+.f22eeeeffe22eeeeee22effeeee22f.
+.ff222fffefe22222222efefff222ff.
+..fffeeeeeffe222222effeeeeefff..
+..feeee22e2fffeeeefff2e22eeeef..
+..feeee22e2fffeeeefff2e22eeeef..
+..f22e22e2effeeeeeeffe2e22e22e..
+.e22e22e22fffeeeeeefff22e22e22e.
+.eee22222fffeeeeeeeefff22222eee.
+.e22222effffeeeeeeeeffffe22222e.
+..ffeffffffeeeeeeeeeeffffffeff..
+..f2eefffffeeeeeeeeeefffffee2f..
+..f222ffffeeeeeeeeeeeeffff222f..
+.eeeeeffffbbbddddddbbbffffeeeee.
+.e22222ffbbddddddddddbbff22222e.
+ee22222efbddddddddddddbfe22222ee
+e22e2e22ebbddddddddddbbe22e2e22e
+eeeeeeeebbbbbddddddbbbbbeeeeeeee
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbc
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbc
+cccccccccccccccccccccccccccccccc
+.cccccccccccccccccccccccccccccc.
+..cccccccccccccccccccccccccccc..
+`</field><data>{"commentRefs":[],"fieldData":{"img":"%(%*m*J{Bu,pN;qchj1O"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="M8{9;7%zTOnbc_u625%J"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="music_playable_play" id="@5}_ca8,2u4QTnU2uxM:"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="H,]f;L%WLg]L6l4pS7.v"><value name="melody"><shadow type="melody_editor" id="8b@`N^|1g{dzH~/AC7:Z"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="t.kdBhZR9zp5YR~)z35X"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">400</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
